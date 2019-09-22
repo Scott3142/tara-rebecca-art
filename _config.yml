@@ -2,16 +2,17 @@
 title: Tara Rebecca Art
 email: tararebeccasimmons@gmail.com
 url: http://tararebeccaart.com
-description: "[To Edit] This is an example of a description for Tara Rebecca Art."
+description: "Personalised cartoons"
 baserul: 'http://tararebeccaart.com'
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#000000'
+  primary-light: '#909399'
   links: '#219ab3'
 
 # Footer settings
-footer: Your Website
+footer: Tara Rebecca Art
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
