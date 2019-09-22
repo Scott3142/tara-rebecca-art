@@ -89,22 +89,26 @@
 
       <div class="slideshow-container">
 
-<div class="mySlides fade">
-  <!-- <div class="numbertext">1 / 3</div> -->
-  <center><img src="img/portfolio/portfolio2.png" width="500px" height="500px"></center>
-  <!-- <div class="text">Caption Text</div> -->
-</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 mySlides fade">
+      <!-- <div class="numbertext">1 / 3</div> -->
+      <center><img src="img/portfolio/portfolio2.png" width="300px" height="300px"></center>
+      <!-- <div class="text">Caption Text</div> -->
+    </div>
 
-<div class="mySlides fade">
-  <!-- <div class="numbertext">2 / 3</div> -->
-  <center><img src="img/portfolio/portfolio2.png" width="500px" height="500px"></center>
-  <!-- <div class="text">Caption Two</div> -->
-</div>
+    <div class="mySlides fade">
+      <!-- <div class="numbertext">2 / 3</div> -->
+      <center><img src="img/portfolio/portfolio2.png" width="300px" height="300px"></center>
+      <!-- <div class="text">Caption Two</div> -->
+    </div>
 
-<div class="mySlides fade">
-  <!-- <div class="numbertext">3 / 3</div> -->
-  <center><img src="img/portfolio/portfolio2.png" width="500px" height="500px"></center>
-  <!-- <div class="text">Caption Three</div> -->
+    <div class="mySlides fade">
+      <!-- <div class="numbertext">3 / 3</div> -->
+      <center><img src="img/portfolio/portfolio2.png" width="300px" height="300px"></center>
+      <!-- <div class="text">Caption Three</div> -->
+    </div>
+  </div>
 </div>
 
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -120,7 +124,7 @@
 
 </div>
 
-          <!-- Download Section -->
+          <!-- Examples Section -->
     <section id="examples" class="container content-section text-center">
         <div class="col-lg-8 col-lg-offset-2">
             <h2>Examples</h2>
@@ -133,8 +137,23 @@
               <div class="col-md-9">
                 <p>
                   Single image: From £25<br>
-                  [We'll make this prettier...]
+                  [We'll make all of this prettier...!]
                 </p>
+                <form action="#" method="post" id="demoForm" class="demoForm">
+
+    <fieldset>
+      <select id="scripts" name="scripts">
+          <option value="1-2 people">1-2 people</option>
+          <option value="3 people">3 people</option>
+      </select>
+
+      <!-- <input type="text" size="30" name="display" id="display" />
+
+      <input type="button" id="showVal" value="Get price" /> -->
+
+    </fieldset>
+</form>
+
               </div>
             </div>
         </div>
@@ -178,11 +197,10 @@
     <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
-    <!-- Custom Theme JavaScript -->
+    <!-- Custom JavaScript -->
     <script src="/js/grayscale.js"></script>
-
-    <!-- Custom Theme JavaScript -->
     <script src="/js/slideshow.js"></script>
+    <script src="/js/order-select.js"></script>
 
     </body>
 </html>

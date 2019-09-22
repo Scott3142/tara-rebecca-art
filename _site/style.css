@@ -263,7 +263,7 @@ a:focus {
 
 #about {
     width: 100%;
-    padding: 50px 0;
+    /* padding: 50px 0; */
     color: #ffffff;
     background-color: #799fd1;
     -webkit-background-size: cover;
@@ -272,10 +272,10 @@ a:focus {
     -o-background-size: cover;
 }
 
-.examples-section {
+#examples {
     width: 100%;
-    padding: 50px 0;
-    padding-bottom: 100px;
+    /* padding: 50px 0; */
+    padding-bottom: 30px;
     color: #ffffff;
     background-color: #345a8c;
     -webkit-background-size: cover;
@@ -292,8 +292,17 @@ a:focus {
 
 }
 
+#scripts {
+    color: #000000;
+}
+
+#showVal {
+  color: #000000;
+}
+
 #contact {
     width: 100%;
+    padding-bottom: 30px;
     background-color: #799fd1;
 }
 
