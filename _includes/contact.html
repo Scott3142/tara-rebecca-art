@@ -1,18 +1,31 @@
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
+<section id="contact">
+    <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact</h2>
-                <p>[Add some text here...]<br> Please get in touch with any requests or questions.</p>
-                <p><a href="mailto:{{ site.email }}">{{ site.email }}</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    {% for network in site.social %}
-                    <li>
-                        <a href="{{ network.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
-                    </li>
-                    {% endfor %}
-                </ul>
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Get In Touch!</h2>
+                <hr class="primary">
+                <p>Find us on Facebook, Instagram and Etsy.</p><br><br>
             </div>
         </div>
-    </section>
+        <div class="row">
+        <div class="col-sm-4 text-center">
+            <a href="https://en-gb.facebook.com/{{ site.facebook_username }}">
+                <i class="fa fa-facebook fa-3x wow bounceIn" data-wow-delay=".1s"></i><br><br>
+                <p>{{ site.facebook_username }}</p>
+            </a>
+        </div>
+        <div class="col-sm-4 text-center">
+            <a href="https://www.instagram.com/{{ site.instagram_username }}">
+            <i class="fa fa-instagram fa-3x wow bounceIn" data-wow-delay=".1s"></i><br><br>
+                <p>{{ site.instagram_username }}</p>
+            </a>
+        </div>
+        <div class="col-sm-4 text-center">
+            <a href="https://www.etsy.com/shop/{{ site.etsy_username }}">
+            <i class="fa fa-etsy fa-3x wow bounceIn" data-wow-delay=".1s"></i><br><br>
+                <p>{{ site.etsy_username }}</p>
+            </a>
+        </div>
+
+    </div>
+</section>

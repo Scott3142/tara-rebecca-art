@@ -1,26 +1,14 @@
 # Site settings
 title: Tara Rebecca Art
-email: tararebeccasimmons@gmail.com
-url: http://tararebeccaart.com
-description: "Personalised cartoons"
-baserul: 'http://tararebeccaart.com'
+email:
+author: Tara Rebecca
+description: Welcome to Tara Rebecca Art. Here you can buy personalised cartoons as a gift for a friend or relative yourself. Digital or printed copies available.
+baseurl: "/"
+url: "tararebeccaart.com" # the base hostname & protocol for your site
 
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary-dark: '#345a8c'
-  primary-light: '#799fd1'
-  links: '#ffffff'
-
-# Footer settings
-footer: Tara Rebecca Art
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: instagram
-    url: https://www.instagram.com/tararebecca_art
-#  - title: email
-#    url: mailto:tararebeccasimmons@gmail.com
+facebook_username: tararebeccaart
+instagram_username: tararebeccaart
+etsy_username: TaraRebeccaArt
 
 # Build settings
 markdown: kramdown
-permalink: pretty
