@@ -12,3 +12,6 @@ etsy_username: TaraRebeccaArt
 
 # Build settings
 markdown: kramdown
+
+# Google Analytics
+google_analytics: UA-49751789-6
