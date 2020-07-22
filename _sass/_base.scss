@@ -359,3 +359,15 @@ video {
   width: 100%;
   height: auto;
 }
+
+.about-me-img {
+    img {
+        width: 50%;
+    }
+
+    @media (max-width: 768px) {
+        img {
+            width: 100%;
+        }
+    }
+}

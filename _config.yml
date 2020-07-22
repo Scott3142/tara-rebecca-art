@@ -19,3 +19,4 @@ google_analytics: UA-49751789-6
 # SEO
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap

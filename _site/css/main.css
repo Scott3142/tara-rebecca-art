@@ -106,3 +106,6 @@ img::-moz-selection { color: white; background: transparent; }
 body { -webkit-tap-highlight-color: #222; }
 
 video { width: 100%; height: auto; }
+
+.about-me-img img { width: 50%; }
+@media (max-width: 768px) { .about-me-img img { width: 100%; } }

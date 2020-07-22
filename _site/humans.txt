@@ -1,0 +1,21 @@
+/* TEAM */
+	Artist: Tara Simmons
+	Contact: tara.rebecca.art [at] gmail.com
+	Instagram: @tararebeccaart
+	From: Llandrindod Wells, Wales
+
+	Web developer: Scott Morgan
+	Contact: smorgan [at] bridgend.ac.uk
+	Twitter: @scott3142
+	Github: Scott3142
+	From: Cardiff, Wales
+
+/* THANKS */
+	Jekyll template creator: Felix Volny
+	Github: volny
+
+/* SITE */
+	Last update: 2020/07/22
+	Language: English
+	Doctype: HTML5
+	Software: Atom, Procreate
