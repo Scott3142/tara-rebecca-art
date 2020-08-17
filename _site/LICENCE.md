@@ -14,7 +14,7 @@ Modifications copyright 2020 Scott Morgan.
 
 The imagery used in the portfolio for this site remains the property of Tara Rebecca Art and is not covered by the open source licenses specified above.
 
-This imagery is licensed under the CC BY-NC-ND 2.0 and you are not permitted to remix, transform or build upon the material, use it for commercial purposes or otherwise attempt to pass it off as your own work. 
+This imagery is licensed under the CC BY-NC-ND 2.0 License and you are not permitted to remix, transform or build upon the material, use it for commercial purposes or otherwise attempt to pass it off as your own work. 
 
 If you copy, share or redistribute the material in any medium or format then you must give appropriate credit and provide a link to the license. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 
